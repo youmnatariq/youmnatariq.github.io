@@ -1,40 +1,55 @@
-h1{
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
   color: darkblue;
   text-align: center;
   font-size: 40px;
-  font-family:cursive;
-  text-decoration:inherit;
+  font-family: cursive;
+  text-decoration: inherit;
 }
 
-h3{
-  color:darkblue;
-  font-family:inherit;
+h3 {
+  color: darkblue;
+  font-family: inherit;
   text-align: center;
 }
-h6{
-  color:black;
+
+h6 {
+  color: black;
   font-size: 15px;
 }
 
-
-p{
-  color:darkred;
+p {
+  color: darkred;
   font-family: cursive;
   font-size: 20px;
   text-decoration-line: none;
-
 }
+
 .images {
   width: 250px;
   height: 250px;
-  float:none;
-  border-radius:120px;
+  float: none;
+  border-radius: 120px;
   border-style: dotted;
   border-color: purple;
 }
 
 body {
-  background-image: url(light.jpg)
+  background-image: url(light.jpg);
 }
 
 .bottomImages {
@@ -47,9 +62,10 @@ body {
   box-shadow: 10px 10px black;
 }
 
-ul.a{
-  list-style-type:circle;
+ul.a {
+  list-style-type: circle;
 }
-li.a{
-  font-family:sans-serif
+
+li.a {
+  font-family: sans-serif;
 }
